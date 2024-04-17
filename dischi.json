@@ -1,9 +1,9 @@
 [
     {
-        "title": "New Jersey",
-        "author": "Bon Jovi",
-        "year": 1988,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg",
+        "title": "Hotel California",
+        "author": "Eagles",
+        "year": 1976,
+        "poster": "https://m.media-amazon.com/images/I/71rYYgYnr2L._UF1000,1000_QL80_.jpg",
         "genre": "Rock"
     },
     {
@@ -28,17 +28,31 @@
         "genre": "Jazz"
     },
     {
-        "title": "Brave new World",
-        "author": "Iron Maiden",
-        "year": 2000,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/0/03/Iron_Maiden_-_Brave_New_World.jpg",
+        "title": "Meteora",
+        "author": "Linkin Park",
+        "year": 2003,
+        "poster": "https://m.media-amazon.com/images/I/71SUbMFnlqL._UF1000,1000_QL80_.jpg",
         "genre": "Metal"
     },
     {
-        "title": "One more car, one more rider",
-        "author": "Eric Clapton",
-        "year": 2002,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg",
-        "genre": "Rock"
+        "title": "Dua Lipa (Delux)",
+        "author": "Dua Lipa",
+        "year": 2017,
+        "poster": "https://m.media-amazon.com/images/I/81-SxZnlDXL._UF1000,1000_QL80_.jpg",
+        "genre": "Pop"
+    },
+    {
+        "title": "Austin",
+        "author": "Post Malone",
+        "year": 2023,
+        "poster": "https://m.media-amazon.com/images/I/91rgNXHkQCL._UF1000,1000_QL80_.jpg",
+        "genre": "Pop"
+    },
+    {
+        "title": "X&Y",
+        "author": "Coldplay",
+        "year": 2005,
+        "poster": "https://m.media-amazon.com/images/I/61Em0CEa3aL._UF1000,1000_QL80_.jpg",
+        "genre": "Pop"
     }
 ]
