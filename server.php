@@ -16,5 +16,5 @@ qui inserirò la logica di modifica / cancellazione dei dati
 
 header('Content-Type: application/json');
 
-//stampo la lista nuovamentetrasformata in stringa
+//stampo la lista nuovamente trasformata in stringa
 echo json_encode($list);
