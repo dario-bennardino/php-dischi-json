@@ -33,7 +33,16 @@ createApp({
             
             */
 
-            console.log(this.newDisk);
+            // console.log(this.newDisk);
+            //php per poter ricevere i dati da una pagina html deve vederli come se provenissero da un form nell'header della chiamata
+            const data = new FormData();
+            data.append('newDiskTitle', this.newDisk.title);
+            data.append('newDiskAuthor', this.newDisk.author);
+            data.append('newDiskYear', this.newDisk.year);
+            data.append('newDiskPoster', this.newDisk.poster);
+            data.append('newDiskGenre', this.newDisk.genre);
+
+            console.log(data);
         }
     },
     mounted() {
