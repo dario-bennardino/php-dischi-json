@@ -46,7 +46,8 @@ createApp({
 
             axios.post(this.apiUrl, data)
                 .then(result => {
-                    console.log(result.data);
+                    // 
+                    this.list = result.data;
                 })
 
             //sto inviando le mia variabili al server
