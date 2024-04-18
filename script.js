@@ -42,7 +42,14 @@ createApp({
             data.append('newDiskPoster', this.newDisk.poster);
             data.append('newDiskGenre', this.newDisk.genre);
 
-            console.log(data);
+            // console.log(data);
+
+            axios.post(this.apiUrl, data)
+                .then(result => {
+                    console.log(result.data);
+                })
+
+            //sto inviando le mia variabili al server
         }
     },
     mounted() {
