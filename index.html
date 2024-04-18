@@ -34,11 +34,11 @@
                 <h1 class="text-white p-4">{{title}}</h1>
             </div>
             <div class="info-new-album w-100 d-flex justify-content-between ">
-                <input type="text" placeholder="Immagine">
-                <input type="text" placeholder="Title">
-                <input type="text" placeholder="Author">
-                <input type="text" placeholder="Year">
-                <input type="text" placeholder="Genre">
+                <input type="text" placeholder="Immagine" v-model.trim="newDisk.poster">
+                <input type="text" placeholder="Title" v-model.trim="newDisk.title">
+                <input type="text" placeholder="Author" v-model.trim="newDisk.author">
+                <input type="text" placeholder="Year" v-model.trim="newDisk.year">
+                <input type="text" placeholder="Genre" v-model.trim="newDisk.genre">
             </div>
 
         </div>
