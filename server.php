@@ -4,7 +4,7 @@
 $json_string = file_get_contents('dischi.json');
 
 //ricodifico la stringa trasformandola in un elemento PHP
-$list = json_decode($json_string);
+$list = json_decode($json_string, true);
 
 /* 
 qui inserirò la logica di modifica / cancellazione dei dati
@@ -24,6 +24,13 @@ if (isset($_POST['newDiskTitle'], $_POST['newDiskAuthor'], $_POST['newDiskYear']
     ];
 
     $list[] = $new_album;
+    file_put_contents('dischi.json', json_encode($list));
+}
+
+//se mi arriva in POST indexToDelete elimino il disco all'indice e aggiorno i dati sempre
+if (isset($_POST['indexToDelete'])) {
+    $indexToDelete = $_POST['indexToDelete'];
+    array_splice($list, $indexToDelete, 1);
     file_put_contents('dischi.json', json_encode($list));
 }
 

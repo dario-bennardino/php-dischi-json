@@ -55,7 +55,8 @@
                         <h5 class="card-text">{{item.year}}</h5>
                         <h6 class="card-text">{{item.genre}}</h6>
                         <button type="button"
-                            class="btn btn-danger delete d-flex justify-content-center align-items-center">X</button>
+                            class="btn btn-danger delete d-flex justify-content-center align-items-center"
+                            @click.stop="deleteDisco(index)">X</button>
                     </div>
                 </div>
             </div>

@@ -51,6 +51,18 @@ createApp({
                 })
 
             //sto inviando le mia variabili al server
+        },
+
+        deleteDisco(index) {
+            // console.log(index);
+            const data = new FormData();
+            data.append('indexToDelete', index);
+
+            axios.post(this.apiUrl, data)
+                .then(result => {
+                    this.list = result.data;
+                })
+
         }
     },
     mounted() {
